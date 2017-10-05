@@ -1,103 +1,128 @@
-#asm code  
- body{margin:0;
- background-color:gray;
- color:gray;
- }
- 
-body{
-background: #E0E0E0; 
+html, body{
+  height: 100%;
 }
-html{
- font-family:sans-serif;  font-size: 16px;
-}
- 
-
-
-pre{
- font-family:sans-serif
-	font-size:18px;
-	background-color:#eee;
-	color:#80bbbb;
+body { 
+			background-image: url(http://cdn4.sportngin.com/attachments/news_article/6312/1048/quebec-flag-muslims-muslim-terrorists-in-canada_large.png) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  
 }
 
-a.slink {
-display:inline-block;
-font-family:sans-serif;
-font-size: 24px;
-background-color:#374040;
-color:#fff;
-text-decoration: none;
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+  
+}
+.wrapper {
+  height: 100%; 
+  width: 100%; 
 }
 
-a.slink:hover {
-display:inline-block;
-font-family:sans-serif;
-background-color:#fff;
-color:#000;
-
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:45%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 0.5em;
 }
 
-a.menu2 {
-display:inline-block;
-font-family:sans-serif;
-font-size: 24px;
-padding: 3px 3px 3px 3px;
-background-color:#374040;
-color:#71b09f;
-text-decoration: none;
+	img {
+    width: 100%;
+    height: auto;
+    opacity: 2.5;
 }
 
-a.menu2:hover {
-display:inline-block;
-font-family:sans-serif;
-background-color:#fff;
-color:#000;
-
+* {
+    box-sizing: border-box;
 }
-
-a.menu1{
-display:inline-block;
-font-family:sans-serif;
-font-size: 24px;
-padding: 3px 3px 3px 3px;
-background-color:#7a8787;
-color:#fff;
-text-decoration: none;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
-a.menu1:hover {
-font-family:sans-serif;
- color:#000;
- text-decoration: none;
+[class*="col-"] {
+    float: left;
+    padding: 15px;
 }
-
-a.button{
-display:inline-block;
-font-family:sans-serif;
-font-size: 18px;
-background-color:#000;
-color:#fff;
-border-style: solid;
-border-color: red;
-padding: 5px 5px 5px 5px;
-border-width: 5px 5px 5px 5px;
-
+html {
+    font-family: "Lucida Sans", sans-serif;
 }
-
-a.button:hover {
-font-family:sans-serif;
- color:#0000ff;
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+    opacity: 0.5;
+    }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-li{
-
-font-family:sans-serif;
-font-size: 24px;
-background-color:#374040;
-color:#fff;
-text-decoration: none;
-
-
-
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For mobile phones: */background attribute is not supported in HTML5. Use CSS inst
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {widt Chania airport from ah: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} 
