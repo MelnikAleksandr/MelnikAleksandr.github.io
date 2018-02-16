@@ -15,11 +15,13 @@ div, body{
   margin: 0;
   padding: 0;
   font-family: exo, sans-serif;
+   opacity: 0.5;
   
 }
 .wrapper {
   height: 100%; 
   width: 100%; 
+  opacity: 0.5;
 }
 
 .message {
@@ -34,6 +36,7 @@ div, body{
   background-color: rgba(0,0,0,0.6);
   color: #fff;
   padding: 0.5em;
+  opacity: 0.5;
 }
 
 	img {
@@ -49,6 +52,7 @@ div, body{
     content: "";
     clear: both;
     display: table;
+   
 }
 [class*="col-"] {
     float: left;
