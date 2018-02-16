@@ -2,7 +2,7 @@ html, body{
   height: 100%;
 }
 body { 
-			background-image: url(http://fossbytes.com/wp-content/uploads/2016/04/session-layer-of-osi-model.jpg) ;
+			background-image: url(http://www.powerpointhintergrund.com/uploads/cool-white-ppt-background-12.jpg) ;
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -15,13 +15,13 @@ div, body{
   margin: 0;
   padding: 0;
   font-family: exo, sans-serif;
-   opacity: 0.5;
+   
   
 }
 .wrapper {
   height: 100%; 
   width: 100%; 
-  opacity: 0.5;
+
 }
 
 .message {
@@ -36,13 +36,12 @@ div, body{
   background-color: rgba(0,0,0,0.6);
   color: #fff;
   padding: 0.5em;
-  opacity: 0.5;
+
 }
 
 	img {
     width: 100%;
     height: auto;
-    opacity: 2.5;
 }
 
 * {
@@ -65,13 +64,11 @@ html {
     background-color: #9933cc;
     color: #ffffff;
     padding: 15px;
-    opacity: 0.5;
     }
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    opacity: 0.5;
 }
 .menu li {
     padding: 8px;
@@ -79,11 +76,9 @@ html {
     background-color: #33b5e5;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    opacity: 0.5;
 }
 .menu li:hover {
     background-color: #0099cc;
-    opacity: 0.5;
 }
 .aside {
     background-color: #33b5e5;
@@ -91,7 +86,6 @@ html {
     color: #ffffff;
     text-align: center;
     font-size: 14px;
-    opacity: 0.5;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .footer {
@@ -100,7 +94,7 @@ html {
     text-align: center;
     font-size: 12px;
     padding: 15px
-    opacity: 0.5;
+    
 }
 /* For mobile phones: */background attribute is not supported in HTML5. Use CSS inst
 [class*="col-"] {
