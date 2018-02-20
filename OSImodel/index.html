@@ -1,11 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href= "css/custom.css"></link>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-	table {
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -20,50 +17,28 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-a {
-    color: white;
-}
 </style>
 </head>
-<body
- background="img/bg.png"
-  <div id="bg">
-  <img src="images/bg.jpg" alt="">
+<body>
 
-<div class="header">
-  <h1>OSI MODEL LAYER 5</h1>
-</div>
+<h2>OSI MODEL SESSION LAYER</h2>
 
-<div class="row">
-
-<div class="col-3 col-m-3 menu">
-<div class="col-6 col-m-9">
-  <h1>Definition - What does Session Layer mean?</h1>
-  <p style="color:black;">
-In the Open Systems Interconnection (OSI) model, the session layer is the fifth layer, which controls the connections between multiple computers. The session layer tracks the dialogs between computers, which are also called sessions. This layer establishes, controls and ends the sessions between local and remote applications.
-</p>
-</div>
-
-<div class="col-3 col-m-12">
-  <div class="aside">
-    <h2>Protocols?</h2>
-    <h2>Password Authentication Protocol (PAP)</h2>
-    <p>Password Authentication Protocol (PAP) is a password-based authentication protocol used by Point to Point Protocol (PPP) to validate users. Almost all network operating system remote servers support PAP.
-PAP is considered a weak authentication scheme (weak schemes are simple and have lighter computational overhead but are much more vulnerable to attack; while weak schemes may have limited application in some constrained environments, they are avoided in general). Among PAP's deficiencies is the fact that it transmits unencrypted passwords over the network. PAP is therefore used only as a last resort when the remote server does not support a stronger scheme such as CHAP or EAP.</p>
-    <h2>Structured Query Language (SQL)</h2>
-    <p>SQL is by definition a language for querying and accessing data in databases, which includes transaction management to keep the database consistent. I think SQL fits in L5 because of the fact that it involves setting up and maintaining sessions (between the host issuing queries and the database server) and it uses the concept of transactions.</p>
-  </div>
-</div>
 <table>
   <tr>
-    <th>LOCATION</th>
+    <th>LAYER</th>
     <th>PAP</th>
     <th>SQL</th>
   </tr>
   <tr>
-    <td>The session layer is the fifth layer</td>
-    <td>Password Authentication Protocol </td>
-    <td>Structured Query Language</td>
+    <td>Session 5th Layer</td>
+    <td>Password Authentication Protocol (PAP)</td>
+    <td>Structured Query Language (SQL)</td>
+  </tr>
+  <tr>
+    <td>In the Open Systems Interconnection (OSI) model, the session layer is the fifth layer, which controls the connections between multiple computers. The session layer tracks the dialogs between computers, which are also called sessions. This layer establishes, controls and ends the sessions between local and remote applications.</td>
+    <td>Password Authentication Protocol (PAP) is a password-based authentication protocol used by Point to Point Protocol (PPP) to validate users. Almost all network operating system remote servers support PAP.
+PAP is considered a weak authentication scheme (weak schemes are simple and have lighter computational overhead but are much more vulnerable to attack; while weak schemes may have limited application in some constrained environments, they are avoided in general). Among PAP's deficiencies is the fact that it transmits unencrypted passwords over the network. PAP is therefore used only as a last resort when the remote server does not support a stronger scheme such as CHAP or EAP.</td>
+    <td>SQL is by definition a language for querying and accessing data in databases, which includes transaction management to keep the database consistent. I think SQL fits in L5 because of the fact that it involves setting up and maintaining sessions (between the host issuing queries and the database server) and it uses the concept of transactions.</td>
   </tr>
   <tr>
     <td><img src="Session.jpg" width='150' height='100'></img></td>
@@ -71,8 +46,6 @@ PAP is considered a weak authentication scheme (weak schemes are simple and have
     <td><img src="SQL.jpg" width='150' height='100'></img></td>
   </tr>
 </table>
-</div>
-
 
 </body>
 </html>
